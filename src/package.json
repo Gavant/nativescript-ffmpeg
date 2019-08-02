@@ -1,5 +1,5 @@
 {
-    "name": "nativescript-ffmpeg-plugin",
+    "name": "nativescript-ffmpeg-plugin-fixed",
     "version": "0.0.2",
     "description": "FFmpeg for NativeScript",
     "main": "ffmpeg",
@@ -8,14 +8,7 @@
         "platforms": {
             "android": "4.0.0",
             "ios": "4.0.0"
-        },
-        "hooks": [
-            {
-                "type": "after-prepare",
-                "script": "lib/after-prepare.js",
-                "inject": true
-            }
-        ]
+        }
     },
     "scripts": {
         "tsc": "tsc",
@@ -43,14 +36,14 @@
         "iOS"
     ],
     "author": {
-        "name": "Osei",
-        "email": "fortune.osei@yahoo.com"
+        "name": "Cemal",
+        "email": "cemalcanefe@gmail.com"
     },
     "bugs": {
         "url": "https://github.com/triniwiz/nativescript-ffmpeg/issues"
     },
     "license": "Apache-2.0",
-    "homepage": "https://github.com/triniwiz/nativescript-ffmpeg",
+    "homepage": "https://github.com/CemalCanEfe/nativescript-ffmpeg",
     "readmeFilename": "README.md",
     "devDependencies": {
         "nativescript-dev-webpack": "^0.20.3",

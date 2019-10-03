@@ -1,7 +1,7 @@
 import * as observable from 'tns-core-modules/data/observable';
 import * as pages from 'tns-core-modules/ui/page';
 import { HelloWorldModel } from './main-view-model';
-import { FFmpeg } from 'nativescript-ffmpeg-plugin';
+import { FFmpeg } from '@gavant/nativescript-ffmpeg';
 import * as fs from 'tns-core-modules/file-system';
 
 let vm;

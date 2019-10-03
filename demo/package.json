@@ -9,7 +9,7 @@
     }
   },
   "dependencies": {
-    "nativescript-ffmpeg-plugin": "file:../src",
+    "@gavant/nativescript-ffmpeg": "file:../src",
     "nativescript-theme-core": "^1.0.4",
     "nativescript-unit-test-runner": "^0.4.1",
     "nativescript-videoplayer": "^4.2.1",

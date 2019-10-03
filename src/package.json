@@ -1,7 +1,7 @@
 {
-    "name": "nativescript-ffmpeg-plugin-fixed",
-    "version": "0.0.2",
-    "description": "FFmpeg for NativeScript",
+    "name": "@gavant/nativescript-ffmpeg",
+    "version": "0.0.3",
+    "description": "FFmpeg for NativeScript by Gavant Software",
     "main": "ffmpeg",
     "typings": "index.d.ts",
     "nativescript": {
@@ -22,7 +22,7 @@
         "demo.ios": "npm run tsc && cd ../demo && tns run ios --syncAllFiles --emulator",
         "demo.android": "npm run tsc && cd ../demo && tns run android --syncAllFiles --emulator",
         "demo.reset": "cd ../demo && npx rimraf -- hooks node_modules platforms package-lock.json",
-        "plugin.prepare": "npm run build && cd ../demo && tns plugin remove nativescript-ffmpeg-plugin && tns plugin add ../src",
+        "plugin.prepare": "npm run build && cd ../demo && tns plugin remove @gavant/nativescript-ffmpeg && tns plugin add ../src",
         "clean": "npm run demo.reset && npx rimraf -- node_modules package-lock.json && npm i",
         "ci.tslint": "npm i && tslint '**/*.ts' --config '../tslint.json' --exclude '**/node_modules/**' --exclude '**/platforms/**'",
         "prepack": "npm run build.native",
@@ -36,14 +36,13 @@
         "iOS"
     ],
     "author": {
-        "name": "Cemal",
-        "email": "cemalcanefe@gmail.com"
+        "name": "Gavant Software"
     },
     "bugs": {
-        "url": "https://github.com/triniwiz/nativescript-ffmpeg/issues"
+        "url": "https://github.com/Gavant/nativescript-ffmpeg/issues"
     },
     "license": "Apache-2.0",
-    "homepage": "https://github.com/CemalCanEfe/nativescript-ffmpeg",
+    "homepage": "https://github.com/Gavant/nativescript-ffmpeg",
     "readmeFilename": "README.md",
     "devDependencies": {
         "nativescript-dev-webpack": "^0.20.3",

@@ -1,6 +1,6 @@
 {
     "name": "@gavant/nativescript-ffmpeg",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "FFmpeg for NativeScript by Gavant Software",
     "main": "ffmpeg",
     "typings": "index.d.ts",
